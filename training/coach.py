@@ -14,7 +14,7 @@ import torch.nn.functional as F
 from utils import common, train_utils
 from criteria import id_loss, moco_loss
 from configs import data_configs
-from datasets.images_dataset import ImagesDataset
+from datasets_local.images_dataset import ImagesDataset
 from criteria.lpips.lpips import LPIPS
 from models.psp import pSp
 from models.latent_codes_pool import LatentCodesPool

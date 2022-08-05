@@ -8,7 +8,7 @@ sys.path.append(".")
 sys.path.append("..")
 
 from configs import data_configs
-from datasets.images_dataset import ImagesDataset
+from datasets_local.images_dataset import ImagesDataset
 from utils.model_utils import setup_model
 
 

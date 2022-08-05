@@ -10,7 +10,7 @@ sys.path.append(".")
 sys.path.append("..")
 
 from configs import data_configs, paths_config
-from datasets.inference_dataset import InferenceDataset
+from datasets_local.inference_dataset import InferenceDataset
 from torch.utils.data import DataLoader
 from utils.model_utils import setup_model
 from utils.common import tensor2im
